@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz de Filosofia</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz de Filosofia</h1>
+        <p>Teste seus conhecimentos sobre Filosofia!</p>
+    </header>
+
+    <main>
+        <section id="quiz-container">
+            <h2>Questões Filosóficas</h2>
+
+            <div id="question-container">
+                <p id="question"></p>
+                <div id="options-container"></div>
+            </div>
+
+            <button id="next-button" onclick="nextQuestion()" disabled>Próxima Pergunta</button>
+
+            <div id="result-container" style="display:none;">
+                <h3>Resultado:</h3>
+                <p id="score"></p>
+                <button onclick="resetQuiz()">Reiniciar Quiz</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Quiz de Filosofia - Desenvolvido por [Seu Nome]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

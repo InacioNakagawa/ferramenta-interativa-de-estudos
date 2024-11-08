@@ -1,0 +1,76 @@
+/* styles.css */
+
+/* Cor de fundo e do texto */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Container principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Estilos do quiz */
+#quiz-container {
+    text-align: center;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+}
+
+button:hover:not([disabled]) {
+    background-color: #555;
+}
+
+/* Estilo dos resultados */
+#result-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+}
